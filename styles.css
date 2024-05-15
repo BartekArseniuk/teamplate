@@ -74,4 +74,16 @@ h2 {
   font-family: "Myriad-Pro";
 }
 
+.title {
+  font-size: 30px;
+  font-family: "CALIFB";
+  margin: 5%;
+}
+
+.description {
+  font-size: 15px;
+  font-family: "Myriad-Pro";
+  margin: 5%;
+}
+
 /*# sourceMappingURL=styles.css.map */
