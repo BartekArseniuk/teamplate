@@ -86,4 +86,28 @@ h2 {
   margin: 5%;
 }
 
+#img2,
+#img3,
+#img4,
+#img5,
+#img6,
+#img7 {
+  margin-top: -15%;
+}
+
+@media only screen and (max-width: 750px) {
+  .desc {
+    margin-bottom: 15%;
+  }
+  #img2,
+  #img3,
+  #img4,
+  #img5,
+  #img6,
+  #img7 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
