@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "CALIFB";
+  src: url("/fonts/CALIFB.TTF") format("truetype");
+}
+@font-face {
+  font-family: "Myriad-Pro";
+  src: url("/fonts/Myriad Pro Regular.ttf") format("truetype");
+}
+footer {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+header {
+  background-color: #ffffff;
+  padding-top: 2%;
+}
+
+.scroll-down-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.foot-container {
+  background-color: #fafafa;
+}
+
+h2 {
+  text-align: center;
+}
+
+.nav-container {
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: "Myriad-Pro";
+}
+
+.foot-container {
+  padding: 2%;
+}
+
+.first-text {
+  text-align: center;
+  font-size: 15px;
+  font-family: "CALIFB";
+}
+
+.second-text {
+  font-size: 12px;
+  text-align: center;
+  font-family: "Myriad-Pro";
+}
+
+.third-text {
+  font-size: 10px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 2%;
+  font-family: "Myriad-Pro";
+}
+
+.body-first-text {
+  font-size: 18px;
+  text-align: center;
+  font-family: "CALIFB";
+}
+
+.body-second-text {
+  font-size: 10px;
+  text-align: center;
+  font-family: "Myriad-Pro";
+}
+
+.title {
+  font-size: 30px;
+  font-family: "CALIFB";
+  margin: 5%;
+}
+
+.description {
+  font-size: 15px;
+  font-family: "Myriad-Pro";
+  margin: 5%;
+}
+
+#img2,
+#img3,
+#img4,
+#img5,
+#img6,
+#img7 {
+  margin-top: -15%;
+}
+
+@media only screen and (max-width: 750px) {
+  .desc {
+    margin-bottom: 15%;
+  }
+  #img2,
+  #img3,
+  #img4,
+  #img5,
+  #img6,
+  #img7 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
